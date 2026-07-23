@@ -5,7 +5,7 @@ import { fadeUp, staggerContainer } from "../../animations/motionVariants"
 export default function NeedHelp() {
   return (
       <AnimatedSection
-      className="bg-white flex lg:py-24 py-16 text-justify m-7"
+      className="bg-maturana-beige flex lg:py-24 py-16 text-justify m-7"
       variants={staggerContainer}
       amount={0.25}
     >

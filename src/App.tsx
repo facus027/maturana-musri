@@ -16,7 +16,7 @@ function App() {
     <>
       <Navbar />
 
-      <main>
+      <main className="overflow-x-hidden">
         <Hero />
         <Introduction/>
         <About/>
