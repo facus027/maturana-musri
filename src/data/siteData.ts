@@ -322,7 +322,7 @@ export const teamData = {
       id: "karen-maturana",
       name: "Karen Maturana",
       description:
-        "Información profesional pendiente de confirmar.",
+        "",
       photos: [
         "/equipo/karen0.png",
         "/equipo/karen1.png",
@@ -332,7 +332,7 @@ export const teamData = {
       id: "andrea-musri",
       name: "Andrea Musri",
       description:
-        "Información profesional pendiente de confirmar.",
+        "",
       photos: [
         "/equipo/andrea0.png",
         "/equipo/andrea1.png",
