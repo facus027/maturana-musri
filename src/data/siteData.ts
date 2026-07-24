@@ -319,20 +319,20 @@ export const teamData = {
       ],
     },
     {
-      id: "karen-maturana",
-      name: "Karen Maturana",
+      id: "andrea-maturana",
+      name: "Andrea Maturana",
       description:
-        "",
+        "Abogada egresada de la Universidad Nacional de Cuyo, Derecho de familia.",
       photos: [
         "/equipo/karen0.png",
         "/equipo/karen1.png",
       ],
     },
     {
-      id: "andrea-musri",
-      name: "Andrea Musri",
+      id: "karen-musri",
+      name: "Karen Musri",
       description:
-        "",
+        "Abogada egresada de la Universidad de Mendoza, Derecho de las Familias y procesos sucesorios.",
       photos: [
         "/equipo/andrea0.png",
         "/equipo/andrea1.png",
@@ -361,6 +361,41 @@ export const reviewsData = {
       id: "resena-mv",
       text: "La verdad tuve una muy buena experiencia con Andrea y Karen. Siempre fueron muy sinceras, se tomaron el tiempo para escuchar y entender bien cada situación antes de dar su opinión o un consejo. Valoro mucho que estuvieron siempre en contacto y realmente involucradas en todo el proceso, acompañando y respondiendo cualquier duda. Se nota el compromiso y la calidad humana con la que trabajan. Las recomiendo sin dudas.",
       author: "M.V.",
+    },
+    {
+      id: "resena-sl",
+      text: "Agradezco al excelentísimo equipo del Estudio, desde lo profesional y desde la calidad humana.No puedo dejar de mencionar el nivel contención de las Doctoras Maturana y Musri que durante años me han acompañado brindando su asesoramiento volcando en su labor sus excelentes valores personales y sus firmes convicciones. Y me parece muy importante destacarlo porque en el momento difícil de mi vida, en que como cliente llegué a su Estudio, realmente encontré lo que necesitaba. Excelente nivel profesional y aún mejor, de personas",
+      author: "S.L.",
+    },
+    {
+      id: "resena-aq",
+      text: "He recibido un acompañamiento legal y humano muy valioso de Andrea y Karen. Desde el inicio, respetaron mi pedido: velar por el bienestar de mi hija. Su asesoramiento fue profesional, pero lo que más valoro es que, en cada paso, marcaron con claridad qué era correcto y qué no lo era para ir siempre por el buen camino. Esa honestidad, por encima de cualquier beneficio, me dio confianza . En momentos difíciles, su calidez y ética han sido invalorables. Han priorizado el bienestar de mi hija por sobre todo, guiándome con empatía y firmeza. Les agradezco profundamente y las recomiendo.",
+      author: "A.Q.",
+    },
+    {
+      id: "resena-mv",
+      text: "La verdad tuve una muy buena experiencia con Andrea y Karen. Siempre fueron muy sinceras, se tomaron el tiempo para escuchar y entender bien cada situación antes de dar su opinión o un consejo. Valoro mucho que estuvieron siempre en contacto y realmente involucradas en todo el proceso, acompañando y respondiendo cualquier duda. Se nota el compromiso y la calidad humana con la que trabajan. Las recomiendo sin dudas.",
+      author: "M.V.",
+    },
+    {
+      id: "resena-rb",
+      text: "Quiero agradecer al equipo de Maturana · Musri & Asociados por la excelente atención y el profesionalismo con el que me acompañaron. Desde el primer momento me sentí muy bien asesorada, con claridad en la información y mucha predisposición para resolver mis dudas. Destaco también la calidad humana y el compromiso con el que trabajan. Sin dudas los recomiendo a cualquier persona que necesite asesoramiento legal. ¡Muchas gracias por todo!",
+      author: "R.B.",
+    },
+    {
+      id: "resena-mr",
+      text: "Quiero agradecer y destacar el trabajo del estudio Maturana · Musri & Asociados. Desde el primer momento se mostraron muy profesionales, claras y concisas, explicándome cada paso del proceso con mucha paciencia y generando tranquilidad. Además de su profesionalismo, valoro profundamente la calidad humana con la que trabajan. En un momento tan sensible como un divorcio, me sentí realmente acompañada, contenida y muy respetada. Estoy muy agradecida por el acompañamiento que me brindaron y recomiendo su trabajo con total confianza.",
+      author: "M.R.",
+    },
+    {
+      id: "resena-jm",
+      text: "Gratitud infinita al estudio por su profesionalismo, pero sobre todo por su calidad humana. En un momento familiar difícil me brindaron apoyo , claridad y mucha confianza, y siempre atentos y comprometidos con mi caso ! Los recomiendo sin dudas .",
+      author: "J.M.",
+    },
+    {
+      id: "resena-jm",
+      text: "Gratitud infinita al estudio por su profesionalismo, pero sobre todo por su calidad humana. En un momento familiar difícil me brindaron apoyo , claridad y mucha confianza, y siempre atentos y comprometidos con mi caso ! Los recomiendo sin dudas .",
+      author: "J.M.",
     },
   ],
 

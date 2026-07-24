@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://maturana-musri.vercel.app/sitemap.xml

@@ -20,7 +20,7 @@ export function About() {
       variants={staggerContainer}
       amount={0.18}
     >
-      <div className="mx-auto w-10/12 py-5">
+      <div className="mx-auto w-10/12 pt-5">
 
         <motion.div
           variants={fadeUp}
@@ -39,51 +39,52 @@ export function About() {
           </p>
         </motion.div>
 
-        <div className="mt-10 mx-auto grid items-end gap-10 lg:grid-cols-[1fr_1.15fr_1fr] lg:gap-8">
-          <motion.article
-            variants={fadeRight}
-            className="order-1 text-center lg:order-1 lg:pb-44 lg:text-right"
-          >
-            <h3 className="font-playfair text-2xl lg:text-5xl font-bold leading-tight text-maturana-navy">
-              {karen.name}
-              <span className="block uppercase">
-                {karen.lastName}
-              </span>
-            </h3>
+<div className="mt-10 mx-auto grid items-end gap-10 lg:grid-cols-[1fr_1.15fr_1fr] lg:gap-8">
+  <motion.article
+    variants={fadeRight}
+    className="order-1 mb-5 text-center lg:order-1 lg:pb-44 lg:text-right"
+  >
+    <h3 className="font-playfair text-2xl font-bold leading-tight text-maturana-navy lg:text-5xl">
+      {karen.name}
+      <span className="block uppercase">
+        {karen.lastName}
+      </span>
+    </h3>
 
-            <p className="mt-5 font-lato font-medium text-sm leading-6 text-maturana-navy/90 sm:text-2xl text-justify sm:leading-7">
-              {karen.description}
-            </p>
-          </motion.article>
+    <p className="mt-5 font-lato text-sm font-medium leading-6 text-maturana-navy/90 sm:text-2xl sm:leading-7 lg:text-right">
+      {karen.description}
+    </p>
+  </motion.article>
 
-          <motion.figure
-            variants={scaleIn}
-            className="order-2 mx-auto w-full lg:order-2 lg:w-full "
-          >
-            <img
-              src={foundersData.groupImage}
-              alt={foundersData.groupImageAlt}
-              loading="eager"
-              className="h-auto w-full object-contain"
-            />
-          </motion.figure>
+  <motion.figure
+    variants={scaleIn}
+    className="order-2 mx-auto w-full lg:order-2"
+  >
+    <img
+      src={foundersData.groupImage}
+      alt={foundersData.groupImageAlt}
+      loading="eager"
+      className="h-auto w-full object-contain"
+    />
+  </motion.figure>
 
-          <motion.article
-            variants={fadeLeft}
-            className="order-3 text-center lg:pb-3 lg:text-left"
-          >
-            <h3 className="font-playfair text-2xl lg:text-5xl font-bold leading-tight text-maturana-navy">
-              {andrea.name}
-              <span className="block uppercase">
-                {andrea.lastName}
-              </span>
-            </h3>
+  <motion.article
+    variants={fadeLeft}
+    className="order-3 mb-5 text-center lg:pb-3 lg:text-left"
+  >
+    <h3 className="font-playfair text-2xl font-bold leading-tight text-maturana-navy lg:text-5xl">
+      {andrea.name}
+      <span className="block uppercase">
+        {andrea.lastName}
+      </span>
+    </h3>
 
-            <p className="mt-5 font-lato font-medium text-sm leading-6 text-maturana-navy/90 sm:text-2xl text-justify sm:leading-7">
-              {andrea.description}
-            </p>
-          </motion.article>
-        </div>
+    <p className="mt-5 font-lato text-sm font-medium leading-6 text-maturana-navy/90 sm:text-2xl sm:leading-7 lg:text-left">
+      {andrea.description}
+    </p>
+  </motion.article>
+</div>
+
       </div>
     </AnimatedSection>
   )

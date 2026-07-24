@@ -36,8 +36,8 @@ export function Team() {
           aria-hidden="true"
           className={[
             "pointer-events-none absolute inset-x-0 bottom-0",
-            "h-20 bg-gradient-to-t",
-            "from-maturana-navy to-transparent",
+            "h-20 ",
+            "",
           ].join(" ")}
         />
       </motion.div>
