@@ -319,8 +319,8 @@ export const teamData = {
       ],
     },
     {
-      id: "andrea-maturana",
-      name: "Andrea Maturana",
+      id: "karen-musri",
+      name: "Karen Musri",
       description:
         "Abogada egresada de la Universidad Nacional de Cuyo, Derecho de familia.",
       photos: [
@@ -329,8 +329,8 @@ export const teamData = {
       ],
     },
     {
-      id: "karen-musri",
-      name: "Karen Musri",
+      id: "andrea-maturana",
+      name: "Andrea Maturana",
       description:
         "Abogada egresada de la Universidad de Mendoza, Derecho de las Familias y procesos sucesorios.",
       photos: [
