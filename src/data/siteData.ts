@@ -325,9 +325,9 @@ export const teamData = {
       description:
         "Abogada egresada de la Universidad Nacional de Cuyo, Derecho de familia.",
       photos: [
-        "/equipo/karen2.png",
+        "/equipo/karen2.jpg",
         "/equipo/karen1.png",
-        "/equipo/karen0.jpg",
+        "/equipo/karen0.png",
       ],
     },
     {
