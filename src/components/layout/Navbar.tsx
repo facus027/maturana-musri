@@ -93,7 +93,7 @@ export function Navbar() {
                   href={link.href}
                   className={[
                     "relative py-2",
-                    "font-lato text-xs lg:text-xl font-extrabold uppercase tracking-[0.04em]",
+                    "font-lato text-xs lg:text-lg font-extrabold uppercase tracking-[0.04em]",
                     "text-maturana-navy",
                     "transition-colors duration-300",
                     "after:absolute after:bottom-0 after:left-0",

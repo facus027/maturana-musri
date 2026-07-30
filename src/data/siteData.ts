@@ -83,7 +83,7 @@ export const foundersData = {
   highlightedText:
     "Somos un equipo que combina trayectoria, actualidad y vocación de servicio.",
 
-  groupImage: "/Karen_Andrea.png",
+  groupImage: "/Karen_Andrea.jpg",
   groupImageAlt: "Karen Musri Tornello y Andrea Verónica Maturana",
 
   members: [
@@ -94,7 +94,7 @@ export const foundersData = {
       fullName: "Karen Musri Tornello",
 
       description:
-        "Abogada egresada de la Universidad de Mendoza, con más de 7 años de experiencia, parte de una nueva generación que aporta una mirada renovadora y personalizada en el acompañamiento legal de cada cliente. Especializada en Derecho de las Familias y procesos sucesorios. Actualmente se encuentra cursando la Maestría en Derecho de las Familias en la Universidad Nacional de Cuyo, profundizando una formación académica orientada a brindar respuestas jurídicas actualizadas, humanas y eficaces.",
+        "Abogada egresada de la Universidad de Mendoza, con más de 7 años de experiencia profesional, integrando una nueva generación de profesionales que aporta una mirada renovadora y un acompañamiento cercano y personalizado en cada caso. Dedicada en Derecho de las Familias y procesos sucesorios, desarrolla su labor con un enfoque basado en el compromiso, la responsabilidad y la búsqueda de soluciones jurídicas acordes a las necesidades de cada cliente.Actualmente se encuentra cursando la Maestría en Derecho de las Familias en la Universidad Nacional de Cuyo (UNCuyo), fortaleciendo su formación académica para brindar un asesoramiento actualizado, humano y eficaz. Además ha realizado diversas capacitaciones en Derecho de las Familias, manteniéndose en constante actualización y compromiso con la excelencia profesional."
     },
     {
       id: "andrea-maturana",
@@ -103,7 +103,7 @@ export const foundersData = {
       fullName: "Andrea Verónica Maturana",
 
       description:
-        "Abogada egresada de la Universidad Nacional de Cuyo, con más de 25 años de ejercicio profesional. Cuenta con una sólida trayectoria y capacitación en Derecho de Familia, desarrollando su labor con una visión centrada en la seriedad, la responsabilidad y el respeto por cada cliente, manteniendo siempre una relación cordial y profesional con colegas. A lo largo de su recorrido profesional, ha tenido una participación activa en la vida institucional del ámbito jurídico, siendo miembro del Tribunal de Ética del Colegio de Abogados de la Primera Circunscripción Judicial de la Provincia de Mendoza entre 2018 y 2021, y Presidenta del Colegio de Abogados durante el período 2021–2024, desempeñando un rol clave en la representación y fortalecimiento del ejercicio profesional.",
+        "Abogada egresada de la Universidad Nacional de Cuyo, con más de 25 años de ejercicio profesional. Cuenta con una sólida trayectoria y capacitación en Derecho de Familia, desarrollando su labor con una visión centrada en la seriedad, la responsabilidad y el respeto por cada cliente, manteniendo siempre una relación cordial y profesional con colegas. A lo largo de su recorrido profesional, ha tenido una participación activa en la vida institucional del ámbito jurídico, siendo miembro del Tribunal de Ética del Colegio de Abogados de la Primera Circunscripción Judicial de la Provincia de Mendoza entre 2018 y 2021, y Presidenta del Colegio de Abogados durante el período 2021–2024, desempeñando un rol clave en la representación y fortalecimiento del ejercicio profesional. Actualmente se encuentra cursando la Maestría en Derecho de las Familias en la Universidad Nacional de Cuyo."
     },
   ],
 }
@@ -305,6 +305,7 @@ export const teamData = {
       photos: [
         "/equipo/maria0.png",
         "/equipo/maria1.png",
+        "/equipo/maria2.png",
       ],
     },
     {
@@ -324,8 +325,9 @@ export const teamData = {
       description:
         "Abogada egresada de la Universidad Nacional de Cuyo, Derecho de familia.",
       photos: [
-        "/equipo/karen0.png",
+        "/equipo/karen2.png",
         "/equipo/karen1.png",
+        "/equipo/karen0.png",
       ],
     },
     {

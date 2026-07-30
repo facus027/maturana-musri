@@ -42,7 +42,7 @@ export function About() {
 <div className="mt-10 mx-auto grid items-end gap-10 lg:grid-cols-[1fr_1.15fr_1fr] lg:gap-8">
   <motion.article
     variants={fadeRight}
-    className="order-1 mb-5 text-center lg:order-1 lg:pb-44 lg:text-right"
+    className="order-1 mb-5 text-center lg:order-3 lg:pb-5 lg:text-left"
   >
     <h3 className="font-playfair text-2xl font-bold leading-tight text-maturana-navy lg:text-5xl">
       {karen.name}
@@ -51,7 +51,7 @@ export function About() {
       </span>
     </h3>
 
-    <p className="mt-5 font-lato text-sm font-medium leading-6 text-maturana-navy/90 sm:text-2xl sm:leading-7 lg:text-right">
+    <p className="mt-5 font-lato text-sm font-medium leading-6 text-maturana-navy/90 sm:text-2xl sm:leading-7 lg:text-left">
       {karen.description}
     </p>
   </motion.article>
@@ -70,7 +70,7 @@ export function About() {
 
   <motion.article
     variants={fadeLeft}
-    className="order-3 mb-5 text-center lg:pb-3 lg:text-left"
+    className="order-3 mb-5 text-center lg:pb-5 lg:text-right lg:order-1"
   >
     <h3 className="font-playfair text-2xl font-bold leading-tight text-maturana-navy lg:text-5xl">
       {andrea.name}
@@ -79,7 +79,7 @@ export function About() {
       </span>
     </h3>
 
-    <p className="mt-5 font-lato text-sm font-medium leading-6 text-maturana-navy/90 sm:text-2xl sm:leading-7 lg:text-left">
+    <p className="mt-5 font-lato text-sm font-medium leading-6 text-maturana-navy/90 sm:text-2xl sm:leading-7 lg:text-right">
       {andrea.description}
     </p>
   </motion.article>
