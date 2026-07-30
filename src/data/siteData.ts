@@ -305,7 +305,7 @@ export const teamData = {
       photos: [
         "/equipo/maria0.png",
         "/equipo/maria1.png",
-        "/equipo/maria2.png",
+        "/equipo/maria2.jpg",
       ],
     },
     {
@@ -327,7 +327,7 @@ export const teamData = {
       photos: [
         "/equipo/karen2.png",
         "/equipo/karen1.png",
-        "/equipo/karen0.png",
+        "/equipo/karen0.jpg",
       ],
     },
     {
