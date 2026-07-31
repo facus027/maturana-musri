@@ -42,7 +42,7 @@ export const navigationLinks = [
 
 export const heroData = {
   desktopVideoUrl:
-    "https://res.cloudinary.com/dwxwejuvu/video/upload/q_auto,f_auto/video_web_final_banner_principal_wjqiek",
+    "https://res.cloudinary.com/dwxwejuvu/video/upload/q_auto:best,f_auto,vc_h264,br_12m/video_web_final_banner_principal_uosc4i.mp4",
 
   desktopPosterUrl:
     "https://res.cloudinary.com/dwxwejuvu/video/upload/so_0,q_auto,f_auto/video_web_final_banner_principal_wjqiek.jpg",
