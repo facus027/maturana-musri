@@ -58,7 +58,7 @@ export function About() {
 
   <motion.figure
     variants={scaleIn}
-    className="order-2 mx-auto w-full lg:order-2"
+    className="order-2 mx-auto w-full lg:order-2 "
   >
     <img
       src={foundersData.groupImage}
