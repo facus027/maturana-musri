@@ -83,7 +83,7 @@ export const foundersData = {
   highlightedText:
     "Somos un equipo que combina trayectoria, actualidad y vocación de servicio.",
 
-  groupImage: "/Karen_Andrea.jpg",
+  groupImage: "/ANDREA Y KAREN OK-03.png",
   groupImageAlt: "Karen Musri Tornello y Andrea Verónica Maturana",
 
   members: [
