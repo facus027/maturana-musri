@@ -68,7 +68,7 @@ export function Navbar() {
           : "border-transparent bg-maturana-beige",
       ].join(" ")}
     >
-      <div className="mx-auto flex h-full w-full items-center justify-between px-5 sm:px-8 lg:px-12">
+      <div className="mx-auto flex md:gap-10 h-full w-full items-center justify-between px-5 sm:px-8 lg:px-12">
         <a
           href="#inicio"
           aria-label="Ir al inicio"
@@ -84,16 +84,16 @@ export function Navbar() {
 
         <nav
           aria-label="Navegación principal"
-          className="hidden md:block mr-36"
+          className="hidden md:block mr-36 md:mr-10"
         >
-          <ul className="flex items-center gap-8 lg:gap-24">
+          <ul className="flex items-center gap-8 lg:gap-16 xl:gap-24">
             {navigationLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
                   className={[
                     "relative py-2",
-                    "font-lato text-xs lg:text-lg font-extrabold uppercase tracking-[0.04em]",
+                    "font-lato text-xs lg:text-md xl:text-lg font-extrabold uppercase tracking-[0.04em]",
                     "text-maturana-navy",
                     "transition-colors duration-300",
                     "after:absolute after:bottom-0 after:left-0",

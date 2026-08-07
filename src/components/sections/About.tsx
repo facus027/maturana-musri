@@ -34,24 +34,24 @@ export function About() {
             {foundersData.introduction}
           </p>
 
-          <p className="mt-6 max-w-[1250px] font-playfair text-3xl font-semibold italic leading-tight text-maturana-ochre sm:text-4xl lg:text-6xl">
+          <p className="mt-6 max-w-[1250px] font-playfair text-3xl font-semibold italic leading-tight text-maturana-ochre sm:text-4xl md:text-4xl xl:text-6xl">
             {foundersData.highlightedText}
           </p>
         </motion.div>
 
-<div className="mt-10 mx-auto grid items-end gap-10 lg:grid-cols-[1fr_1.15fr_1fr] lg:gap-8">
+<div className="mt-10 mx-auto grid items-end gap-10 lg:grid-cols-[1fr_1.15fr_1fr] md:gap-2 xl:gap-8">
   <motion.article
     variants={fadeRight}
     className="order-1 mb-5 text-center lg:order-3 lg:pb-5 lg:text-left"
   >
-    <h3 className="font-playfair text-2xl font-bold leading-tight text-maturana-navy lg:text-5xl">
+    <h3 className="font-playfair text-2xl font-bold leading-tight text-maturana-navy md:text-2xl xl:text-5xl">
       {karen.name}
       <span className="block uppercase">
         {karen.lastName}
       </span>
     </h3>
 
-    <p className="mt-5 font-lato text-sm font-medium leading-6 text-maturana-navy/90 sm:text-2xl sm:leading-7 lg:text-left">
+    <p className="mt-5 font-lato text-sm font-medium leading-6 text-maturana-navy/90 md:text-xs xl:text-xl sm:text-md sm:leading-7 lg:text-left">
       {karen.description}
     </p>
   </motion.article>
@@ -72,14 +72,14 @@ export function About() {
     variants={fadeLeft}
     className="order-3 mb-5 text-center lg:pb-5 lg:text-right lg:order-1"
   >
-    <h3 className="font-playfair text-2xl font-bold leading-tight text-maturana-navy lg:text-5xl">
+    <h3 className="font-playfair text-2xl font-bold leading-tight text-maturana-navy md:text-2xl xl:text-5xl">
       {andrea.name}
       <span className="block uppercase">
         {andrea.lastName}
       </span>
     </h3>
 
-    <p className="mt-5 font-lato text-sm font-medium leading-6 text-maturana-navy/90 sm:text-2xl sm:leading-7 lg:text-right">
+    <p className="mt-5 font-lato text-sm font-medium leading-6 text-maturana-navy/90 md:text-xs xl:text-xl sm:text-md sm:leading-7 lg:text-right">
       {andrea.description}
     </p>
   </motion.article>
